@@ -25,7 +25,24 @@
         return (NSString*)value;
     }
     if ([value isKindOfClass:[NSNumber class]]) {
-       return [value stringValue];
+        return [value stringValue];
+    }
+    
+    return nil;
+}
+
+- (NSString*)jk_stringNullForKey:(id)key
+{
+    id value = [self objectForKey:key];
+    if (value == nil || value == [NSNull null])
+    {
+        return nil;
+    }
+    if ([value isKindOfClass:[NSString class]]) {
+        return (NSString*)value;
+    }
+    if ([value isKindOfClass:[NSNumber class]]) {
+        return [value stringValue];
     }
     
     return nil;

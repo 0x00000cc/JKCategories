@@ -14,6 +14,8 @@
 
 - (NSString*)jk_stringForKey:(id)key;
 
+- (NSString*)jk_stringNullForKey:(id)key;
+
 - (NSNumber*)jk_numberForKey:(id)key;
 
 - (NSDecimalNumber *)jk_decimalNumberForKey:(id)key;
