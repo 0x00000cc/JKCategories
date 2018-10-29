@@ -83,6 +83,21 @@
     self.frame = frame;
 }
 
+- (CGPoint)n_middle
+{
+    return CGPointMake(self.frame.size.width * .5, self.frame.size.height * .5);
+}
+
+- (CGFloat)n_middleX
+{
+    return self.frame.size.width * .5;
+}
+
+- (CGFloat)n_middleY
+{
+    return self.frame.size.height * .5;
+}
+
 #pragma mark - Shortcuts for frame properties
 
 - (CGPoint)jk_origin {
