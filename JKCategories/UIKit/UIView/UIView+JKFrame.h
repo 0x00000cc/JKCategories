@@ -27,10 +27,10 @@
 @property (nonatomic) CGFloat jk_height;
 
 /// 控件坐标自身中心点
-@property (assign, nonatomic, readonly) CGPoint n_middle ;
+@property (assign, nonatomic, readonly) CGPoint jk_middle ;
 /// 控件坐标自身中心点
-@property (assign, nonatomic, readonly) CGFloat n_middleX ;
+@property (assign, nonatomic, readonly) CGFloat jk_middleX ;
 /// 控件坐标自身中心点
-@property (assign, nonatomic, readonly) CGFloat n_middleY ;
+@property (assign, nonatomic, readonly) CGFloat jk_middleY ;
 
 @end

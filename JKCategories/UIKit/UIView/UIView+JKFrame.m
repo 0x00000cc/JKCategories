@@ -83,17 +83,17 @@
     self.frame = frame;
 }
 
-- (CGPoint)n_middle
+- (CGPoint)jk_middle
 {
     return CGPointMake(self.frame.size.width * .5, self.frame.size.height * .5);
 }
 
-- (CGFloat)n_middleX
+- (CGFloat)jk_middleX
 {
     return self.frame.size.width * .5;
 }
 
-- (CGFloat)n_middleY
+- (CGFloat)jk_middleY
 {
     return self.frame.size.height * .5;
 }
